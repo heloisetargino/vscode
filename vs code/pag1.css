@@ -1,0 +1,147 @@
+@font-face {
+    font-family: narrow;
+    src: url(arial_narrow_7.ttf);
+}
+  
+
+body {
+    background-color: black;
+    color: white;
+    font-family: narrow;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#video {
+    display: inline-block;
+    margin-left: 400px;
+}
+
+#titulo1 {
+    margin-left: 570px;
+}
+
+#texto1 {
+    text-align: center;
+}
+
+#imagem1 {
+    width: 415px;
+    height: 289px;
+    float: left;
+    padding-left:200px;
+    padding-top: 100px;
+}
+
+#texto2 {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+
+
+#atualmente {
+    text-align: left;
+    margin-left: 300px;
+    position: relative;
+    top: 50px;
+}
+
+#texto3 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    position: relative;
+    top: 65px;
+}
+
+#imagem2 {
+    width: 415px;
+    height: 289px;
+    float: right;
+    margin-right: 200px;
+    margin-left: 45px;
+    position: relative;
+    bottom: 190px;
+}
+
+header {
+    width: 1vp;
+    height: 150px;
+    background-color: #052B22;
+    position: sticky;
+    top: 0.00001px;
+    z-index: 10;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+header a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+#baronesa {
+    width: 202px;
+    height: 70px;
+    background-color: #464646;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 167px;
+    bottom: 40px;
+}
+
+#história {
+    width: 202px;
+    height: 70px;
+    background-color: #464646;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 438px;
+    bottom: 40px;
+}
+
+#comércio {
+    width: 202px;
+    height: 70px;
+    background-color: #464646;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 720px;
+    bottom: 40px;
+}
+
+#educação {
+    width: 202px;
+    height: 70px;
+    background-color: #464646;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 1003px;
+    bottom: 40px;
+}
+
+nav a {
+    position: relative;
+    top: 20px;
+}
+
